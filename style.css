@@ -1,0 +1,168 @@
+/*-- Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: nexa;
+  src: url("./fonts/Nexa-Heavy.ttf");
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url("./fonts/Gilroy-Medium.ttf");
+}
+
+body {
+  background-color: #232323;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Desktop Devices */
+@media only screen and (min-width: 992px) {
+
+  /* Name and Social Media */
+  .middle {
+    color: white;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+  }
+
+  #name {
+    font-family: nexa;
+    font-size: 140px;
+
+    text-shadow: 0 8px 15px rgba(0, 0, 0, 0.661);
+  }
+
+  #bottom-text {
+    font-size: 35px;
+  }
+
+  #github {
+    background: #e05353;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 0px 0px 0px;
+  }
+
+  #github:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  #github:active {
+    transform: translateY(1px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+
+
+/* For Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* Name and Social Media */
+  .middle {
+    color: white;
+    left: 0;
+    margin-top: -180px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+
+  #name {
+    font-family: nexa;
+    font-size: 130px;
+
+    text-shadow: 0 8px 15px rgba(0, 0, 0, 0.661);
+  }
+
+  #bottom-text {
+    font-family: gilroy;
+    font-size: 28px;
+    font-weight: 100;
+  }
+
+  #github {
+    background: #e05353;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 0px 0px 0px;
+  }
+}
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 767px) {
+
+  /* Name and Social Media */
+  .middle {
+    color: white;
+    left: 0;
+    margin-top: -180px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+
+  #name {
+    font-family: nexa;
+    font-size: 90px;
+
+    text-shadow: 0 8px 15px rgba(0, 0, 0, 0.661);
+  }
+
+  #bottom-text {
+    font-family: gilroy;
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  #github {
+    background: #e05353;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 0px 0px 0px;
+  }
+
+}
